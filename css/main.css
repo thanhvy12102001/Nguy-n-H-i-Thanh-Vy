@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 900px;
+	overflow: hidden;
+}
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+/*	background-color: greenyellow;*/
+}
+section{
+	width: 100%;
+	height: 900px;
+/*	background-color: aqua;*/
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 160px;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background-color: white;
+	-webkit-box-shadow: 0px 13px 25px 6px rgba(0,0,0,0.6); 
+box-shadow: 0px 13px 25px 6px rgba(0,0,0,0.6);
+}
+nav{
+	width: 80%;
+	height: 100px;
+	padding-left: 180px;
+}
+nav ul{
+	height: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li{
+	float: left;
+	padding: 20px 40px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+}
+nav ul li:hover{
+	border-bottom: 3px solid #c00000;
+}
+
+/*section trangchu*/
+.left-banner h1{
+	font-size: 30px;
+	font-weight: 400;
+}
+.left-banner h2{
+	padding: 20px 0;
+	font-size: 90px;
+}
+.left-banner h3{
+	font-size: 30px;
+	font-weight: 400;
+}
+.primery-color{
+	color: #c00000;
+	font-size: 120px;
+}
+.left-banner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/*section thôngtin*/
+.hinhanh h4{
+	font-size: 40px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+table{
+	padding: 150px 20px;
+/*	margin: 0 auto;*/
+	width: 750px;
+	text-align: center;
+}
+td,th{
+	font-size: 25px;
+	height: 50px;
+}
+.skill h5{
+	font-size: 35px;
+	text-align: center;
+	padding: 50px 0;
+/*	color: #c00000;*/
+}
+.box{
+	width: 50%;
+	height: 170px;
+	background-color: #DFDEDE;
+	float: left;
+	border-radius: 200px;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.box img{
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+.box:hover img{
+	opacity: 0.5;
+}
+.lable{
+	width: 90px;
+	height: 40px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	top: 80px;
+	left: 40px;
+	border-radius: 100px;
+	opacity: 0;
+}
+.box lable {
+	opacity: 0;
+	transition: all 1s linear;
+}
+.box:hover .lable {
+	opacity: 1;
+}
+.sp{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.title{
+	text-align: center;
+}
+.line{
+	width: 30%;
+	height: 1px;
+	background: #050505;
+	display: inline-block;
+	margin: 0px 5px;
+	margin-bottom: 10px;
+}
+.title h1{
+	display: inline-block;
+}
+.container p{
+	text-align: center;
+	margin: 10px auto;
+}
+
+
+.container1{
+	width: 580px;
+	height: 300px;
+	background: white;
+	margin: 30px auto;
+	padding: 10px;
+}
+input{
+	width: 100%;
+	height: 40px;
+	padding-left: 8px;	
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #808080;
+}
+td{
+	padding: 5px;
+}
+.checkbox{
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+.text-check{
+	float: left;
+	margin-left: 5px;
+	margin-top: -1px;
+}
+button{
+	width: 100%;
+	height: 50px;
+	background: #81E97D;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
